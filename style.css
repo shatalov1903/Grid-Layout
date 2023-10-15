@@ -22,9 +22,7 @@ body {
 
 .header {
   grid-area: header;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  text-align: center;
   background: #7b7575;
   color: #fff;
   padding: 20px;
@@ -57,6 +55,7 @@ a {
   grid-area: content;
   background: #fff;
   overflow: auto;
+  padding: 20px;
 }
 
 .sidebar {
@@ -67,9 +66,7 @@ a {
 
 .footer {
   grid-area: footer;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  text-align: center;
   background: #000;
   color: #fff;
   padding: 20px;
@@ -85,5 +82,8 @@ a {
       "content"
       "sidebar"
       "footer";
+  }
+  .sidebar {
+    text-align: center;
   }
 }
