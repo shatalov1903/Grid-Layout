@@ -53,6 +53,8 @@ a {
 
 .content {
   grid-area: content;
+  text-align: justify;
+  text-indent: 20px;
   background: #fff;
   overflow: auto;
   padding: 20px;
